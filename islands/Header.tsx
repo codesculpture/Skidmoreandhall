@@ -9,8 +9,8 @@ export default function Header() {
         <div class="sub-header flex grow">
             <div class="flex flex-1 grow w-full justify-center items-center">
                 <ul class="w-full grid grid-cols-2 gap-4 place-items-stretch text-gray-400">
-                    <li class="left ml-10">(330) 725-5936 help@skidmoreandhall.com</li>
-                    <li class="flex justify-end mr-10">Contact Us Today!</li>
+                    <li class="left ml-10 space-x-4"><span class="hover:text-black">(330) 725-5936</span><span class="hover:text-black">help@skidmoreandhall.com</span></li>
+                    <li class="flex justify-end mr-10 hover:text-black">Contact Us Today!</li>
                 </ul>
             </div>
         </div>
