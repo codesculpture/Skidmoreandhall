@@ -30,9 +30,16 @@ export default function Home() {
 
       {/* banner SM */}
       <div class="md:hidden">
-        <div>
+        <div class="banner-sm">
         <img src="books.jpg" class="banner-img-sm"></img>
-
+        <div class="banner-text-sm">
+            <div class="title-sm ">Skidmore & Hall Co. , LPA</div>
+            <div class="underline-sm"></div>
+            <div class="subtitle-sm">Dynamic Representation<br/>by Caring Counsel</div>
+            <div>
+              <button class="contact-btn-sm">Contact Us</button>
+            </div>
+          </div>
         </div>
       </div>
       </>

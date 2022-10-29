@@ -49,6 +49,49 @@
 
 
 /* Small CSS */
-.banner-img-sm {
-    height: 40vh;
+.banner-sm {
+    display: grid;
+}
+
+.banner-img-sm, .banner-text-sm {
+    grid-area: 1/1;
+}
+
+.title-sm {
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    font-family: "PT Serif Caption";
+    margin-top: 3vh;
+}
+
+.underline-sm {
+    background-color: white;
+    text-align: center;
+    height: .5vh;
+    width: 20vw;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 1.5vh;
+}
+
+.subtitle-sm {
+    color: #BD9B78;
+    text-align: center;
+    font-family: "PT Serif Caption";
+    margin-top: 2vh;
+}
+
+.contact-btn-sm {
+    height: 5vh;
+    width: 30vw;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2vh;
 }
