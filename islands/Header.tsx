@@ -1,22 +1,23 @@
 import { useState } from "preact/hooks";
 import { Button } from "../components/Button.tsx";
 import { tw } from "twind";
+import { asset } from '$fresh/runtime.ts';
+import { render } from "https://esm.sh/v96/preact@10.11.0/src/index.d.ts";
 
 
 export default function Header() {
-    let isNavHidden: string = 'hidden';
-    function updateNav():any {
-        if(isNavHidden == 'hidden') isNavHidden = '';
-        else isNavHidden = 'hidden';
-        console.log(isNavHidden);
-    }
+    const [showMenu, setShowMenu] = useState(true);
+    
     return (
     <>
+        <head>
+        <link rel="stylesheet" href={asset("/header.css")} />
+        </head>
         <div class="sub-header flex grow">
             <div class="hidden lg:flex flex-1 grow w-full justify-center items-center">
                 <ul class="w-full grid grid-cols-2 gap-4 place-items-stretch text-gray-400">
-                    <li class="left ml-10 space-x-4"><span class="hover:text-black cursor-pointer">(330) 725-5936</span><span class="hover:text-black cursor-pointer">help@skidmoreandhall.com</span></li>
-                    <li class="flex justify-end mr-10 hover:text-black cursor-pointer">Contact Us Today!</li>
+                    <li class="left ml-10 space-x-4"><span>(330) 725-5936</span><span>help@skidmoreandhall.com</span></li>
+                    <li class="flex justify-end mr-10">Contact Us Today!</li>
                 </ul>
             </div>
         </div>
@@ -37,14 +38,14 @@ export default function Header() {
                 </ul>
             </div>
             {/* Medium/Small Screens */}
-            <div class="w-full h-1/10 grid grid-cols-2 text-gray-400">
+            <div class="lg:hidden w-full h-1/10 grid grid-cols-2 text-gray-400">
                 <img
                     src="/blackSHLogo.svg"
                     class="lg:hidden flex w-16 h-16 ml-10 place-self-start"
                     alt="the fresh logo: a sliced lemon dripping with juice"
                 />
                 <div class="mobile-menu-button lg:hidden flex items-center place-self-end pb-5 pr-4">
-                    <button>
+                    <button onClick={() => setShowMenu(!showMenu)}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
@@ -53,12 +54,12 @@ export default function Header() {
             </div>
         </div>
         {/* TODO: Complete mobile behavior show + hide */}
-        <div class="mobile-menu grow w-full h-screen space-y-10 flex-1 flex-cols-1 flex-row-5 items-center justify-center hidden">
-            <a href="$1" class="block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Home</a>
-            <a href="$1" class="block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Services</a>
-            <a href="$1" class="block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Attorneys</a>
-            <a href="$1" class="block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Blog</a>
-            <a href="$1" class="block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Contact Us</a>
+        <div className={showMenu === true ? 'mobile-menu grow w-full h-screen space-y-10 flex-1 flex-cols-1 flex-row-5 items-center justify-center hidden' : 'mobile-menu grow w-full h-screen space-y-10 flex-1 flex-cols-1 flex-row-5 items-center justify-center'}>
+            <a href="$1" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white mt-3">Home</a>
+            <a href="$1" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Services</a>
+            <a href="$1" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Attorneys</a>
+            <a href="$1" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Blog</a>
+            <a href="$1" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Contact Us</a>
         </div>
     </>
   );

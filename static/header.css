@@ -1,5 +1,8 @@
-#sub-header {
-    border: black;
-    border-style: solid;
-    border-width: 10px;
+.header {
+    width: 100%;
+}
+
+.menu-item:hover {
+    background-color: #173648;
+    color: white;
 }

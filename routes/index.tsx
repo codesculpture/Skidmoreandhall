@@ -7,9 +7,34 @@ export default function Home() {
       <Head>
         <title>Skidmore and Hall</title>
         <link rel="icon" href="/blackSHLogo.svg"/>
-        <link rel="stylesheet" href={asset("header.css")} />     
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif+Caption" />
+        <link rel="stylesheet" href={asset("home.css")} />     
       </Head>
       <Header/>
-    </>
+
+      {/* banner LG */}
+      <div class="hidden md:flex">
+        <div class="banner">
+          <img src="books.jpg" class="banner-img"></img>
+          <div class="banner-text">
+            <div class="title ">Skidmore & Hall Co. , LPA</div>
+            <div class="underline"></div>
+            <div class="subtitle">Dynamic Representation<br/>by Caring Counsel</div>
+            <div>
+              <button class="contact-btn">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* banner SM */}
+      <div class="md:hidden">
+        <div>
+        <img src="books.jpg" class="banner-img-sm"></img>
+
+        </div>
+      </div>
+      </>
   );
 }

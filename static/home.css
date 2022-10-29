@@ -1,0 +1,54 @@
+.title {
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+    font-family: "PT Serif Caption";
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+.subtitle {
+    color: #BD9B78;
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 10vh;
+    font-family: "PT Serif Caption";
+}
+.underline {
+    background-color: white;
+    text-align: center;
+    height: .5vh;
+    width: 20vw;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.banner {
+    display: grid;
+}
+
+.banner-img, .banner-text {
+    grid-area: 1 / 1;
+}
+
+.contact-btn {
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+
+
+/* Small CSS */
+.banner-img-sm {
+    height: 40vh;
+}
