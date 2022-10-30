@@ -14,7 +14,7 @@ export default function Home() {
       <Header/>
 
       {/* banner LG */}
-      <div class="hidden md:flex">
+      <div class="hidden lg:flex">
         <div class="banner">
           <img src="books.jpg" class="banner-img"></img>
           <div class="banner-text">
@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       {/* banner SM */}
-      <div class="md:hidden">
+      <div class="lg:hidden">
         <div class="banner-sm">
         <img src="books.jpg" class="banner-img-sm"></img>
         <div class="banner-text-sm">
@@ -41,6 +41,21 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/*Attorneys LG */}
+      <div class="hidden lg:flex">
+        <div class="attorneys">
+          <div class="title-at">Our Attorneys</div>
+          <div class="underline-at"></div>
+          <ul>
+            <li>
+              
+            </li>
+            <li></li>
+          </ul>
+        </div>
+
       </div>
       </>
   );
