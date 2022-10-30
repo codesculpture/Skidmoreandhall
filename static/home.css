@@ -107,6 +107,7 @@
     font-size: 8vh;
     text-align: center;
     margin-top: 3vh;
+    font-family: "PT Serif Caption";
 }
 
 .underline-at {
@@ -116,5 +117,56 @@
     text-align: center;
     margin: auto;
     border-radius: 25px;
+}
 
+/* Attorney Info */
+.attorneyinfo {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.attorneysnip {
+    height: 100%;
+    width: 20vw;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin-top: 3vh;
+}
+
+.attorneyimg {
+    height: auto;
+    max-height: 40vh;
+    max-width: 100%;
+    background-color: blue;
+    margin: auto;
+}
+
+.attorneyname {
+
+}
+
+/* Attorney Info sm */
+.title-at-sm {
+    color: #173648;
+    width: 100vw;
+    font-size: 4vh;
+    text-align: center;
+    margin-top: 3vh;
+    font-family: "PT Serif Caption";
+}
+
+.underline-at-sm {
+    height: .5vh;
+    width: 20vw;
+    background-color: #173648;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
 }

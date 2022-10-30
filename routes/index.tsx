@@ -48,14 +48,34 @@ export default function Home() {
         <div class="attorneys">
           <div class="title-at">Our Attorneys</div>
           <div class="underline-at"></div>
-          <ul>
-            <li>
-              
-            </li>
-            <li></li>
-          </ul>
+          <div class="flex flex-cols-4 space-x-12 attorneyinfo">
+            <div class="flex flex-col attorneysnip">
+              <img src={asset("images/attorneys/Lee-Skidmore.jpg")} class="attorneyimg"></img>
+              <div class="attorneyname">Lee Skidmore</div>
+            </div>
+            <div class="flex flex-col attorneysnip">
+              <img src={asset("images/attorneys/Rob-Skidmore.jpg")} class="attorneyimg"></img>
+              <div class="attorneyname">Rob Skidmore</div>
+            </div>
+            <div class="flex flex-col attorneysnip">
+              <img src={asset("images/attorneys/Claudia-Skidmore.jpg")} class="attorneyimg"></img>
+              <div class="attorneyname">Claudia Skidmore</div>
+            </div>
+            <div class="flex flex-col attorneysnip">
+              <img src={asset("images/attorneys/Nicole-Sergov.jpg")} class="attorneyimg"></img>
+              <div class="attorneyname">Nicole Sergov</div>
+            </div>
+          </div>
         </div>
+      </div>
 
+      {/*Attorneys LG */}
+      <div class="lg:hidden flex">
+        <div class="attorneys-sm">
+          <div class="title-at-sm">Our Attorneys</div>
+          <div class="underline-at-sm"></div>
+
+        </div>
       </div>
       </>
   );
