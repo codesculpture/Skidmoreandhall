@@ -33,7 +33,7 @@ export default function Header() {
                     <li>Home</li>
                     <li>Services</li>
                     <li>Attorneys</li>
-                    <li>Blog</li>
+                    <li>Article</li>
                     <li>Contact Us</li>
                 </ul>
             </div>
