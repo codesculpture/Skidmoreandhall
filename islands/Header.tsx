@@ -26,7 +26,7 @@ export default function Header() {
             <img
                 src="/blackSHLogo.svg"
                 class="hidden lg:flex w-32 h-32 ml-10"
-                alt="the fresh logo: a sliced lemon dripping with juice"
+                alt="Skidmore and Hall Logo"
             />
             <div class="hidden lg:flex flex-1 grow justify-center items-center mr-20">
                 <ul class="flex flex-row w-max space-x-28 text-lg">
@@ -42,7 +42,7 @@ export default function Header() {
                 <img
                     src="/blackSHLogo.svg"
                     class="lg:hidden flex w-16 h-16 ml-10 place-self-start"
-                    alt="the fresh logo: a sliced lemon dripping with juice"
+                    alt="Skidmore and Hall Logo"
                 />
                 <div class="mobile-menu-button lg:hidden flex items-center place-self-end pb-5 pr-4">
                     <button onClick={() => setShowMenu(!showMenu)}>

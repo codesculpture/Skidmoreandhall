@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Nicole-Sergov.jpg")} class="attorneyimg"></img>
-              <div class="attorneyname">Nicole Sergov</div>
+              <div class="attorneyname">Nicole Sergov J.D. 11/14/2022</div>
             </div>
           </div>
         </div>
