@@ -235,6 +235,34 @@
     width: 40%;
 }
 
+/* WhyChoose sm */
+.whychoose-sm {
+    height: 60vh;
+    width: 100vw;
+}
+
+.whychoose-bio-sm {
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+}
+
+.whychoose-title-sm {
+    font-size: 1.75vh;
+    color: #BD9B78;
+    font-weight: bolder;
+}
+
+.whychoose-text-sm {
+    font-size: 1.25vh;
+    margin-top: 1vh;
+    font-family: "Playfair Display";
+}
+
+.whychoose-img-sm {
+    margin-top: 2vh;
+}
+
 .aboutUs-title {
     color: #BD9B78;
     font-size: 3vh;
@@ -245,4 +273,32 @@
 .aboutUs-text {
     margin-top: 3vh;
     font-family: "Playfair Display";
+}
+
+.aboutus-sm {
+    height: 60vh;
+    width: 100vw;
+}
+
+.aboutus-bio-sm {
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+}
+
+.aboutus-title-sm {
+    font-size: 1.75vh;
+    color: #BD9B78;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.aboutus-text-sm {
+    font-size: 1.25vh;
+    margin-top: 1vh;
+    font-family: "Playfair Display";
+}
+
+.aboutus-img-sm {
+    margin-top: 2vh;
 }

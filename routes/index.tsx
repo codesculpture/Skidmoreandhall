@@ -104,7 +104,7 @@ export default function Home() {
       <div class="hidden lg:flex space-x-12 whychoose">
         <img src={asset("images/Medina/Courthouse.jpg")} class="whychoose-img"></img>
         <div class="whychoose-bio">
-          <div class="whychoose-title">WHY CHOOSE SKIDMORE & HALL CO., LPA </div>
+          <div class="whychoose-title">WHY CHOOSE SKIDMORE & HALL CO., LPA</div>
           <div class="whychoose-text">
             The experienced attorneys at Skidmore & Hall Co. LPA are committed to protecting client’s interests and giving them the best representation possible. 
             We believe every client’s situation is unique and we will strive to represent each client according to their personal situation. We will take the time to 
@@ -116,17 +116,46 @@ export default function Home() {
         </div>
       </div>
 
-      {/* About Us */}
+      {/* Why choose section LG */}
+      <div class="lg:hidden whychoose-sm">
+        <div class="whychoose-bio-sm">
+          <div class="whychoose-title-sm">WHY CHOOSE SKIDMORE & HALL CO., LPA</div>
+          <div class="whychoose-text-sm">
+            The experienced attorneys at Skidmore & Hall Co. LPA are committed to protecting client’s interests and giving them the best representation possible. 
+            We believe every client’s situation is unique and we will strive to represent each client according to their personal situation. We will take the time to 
+            listen and understand the client’s concerns and we will use our expertise to customize a solution for each individual client. Our goal is to help our clients 
+            throughout all their legal needs. We endeavor to build a relationship with our clients where they will continue to use our services whenever they need legal 
+            assistance. Our firm is committed to delivering highly skilled, effective, and innovative legal representation to our clients in a timely manner and at a 
+            reasonable cost.  
+          </div>
+          <img src={asset("images/Medina/Courthouse.jpg")} class="whychoose-img-sm"></img>
+        </div>
+      </div>
+
+      {/* About Us LG*/}
       <div class="hidden lg:flex space-x-12 aboutUs">
         <div class="aboutUs-bio">
           <div class="aboutUs-title">ABOUT US</div>
           <div class="aboutUs-text">
             The law firm of Skidmore & Hall Co. LPA has been serving clients in the Northeast Ohio area since 1965. Skidmore & Hall Co., LPA was formed by L. 
             Thomas Skidmore and Ronald H. Hall.  Since the firm’s foundation, our attorneys continue to commit themselves to serving the community and have built 
-            their practice on providing valuable individualized legal services to their clients. 
+            their practice on providing valuable individualized legal services to their clients.
           </div>
         </div>
         <img src={asset("/images/Medina/Office.jpg")} class="aboutUs-img"></img>
+      </div>
+
+      {/* About Us */}
+      <div class="lg:hidden aboutus-sm">
+        <div class="aboutus-bio-sm">
+          <div class="aboutus-title-sm">ABOUT US</div>
+          <div class="aboutus-text-sm">
+            The law firm of Skidmore & Hall Co. LPA has been serving clients in the Northeast Ohio area since 1965. Skidmore & Hall Co., LPA was formed by L. 
+            Thomas Skidmore and Ronald H. Hall.  Since the firm’s foundation, our attorneys continue to commit themselves to serving the community and have built 
+            their practice on providing valuable individualized legal services to their clients.
+          </div>
+          <img src={asset("/images/Medina/Office.jpg")} class="aboutus-img-sm"></img>
+        </div>
       </div>
       </>
   );
