@@ -46,6 +46,11 @@
     margin-top: 5vh;
 }
 
+.contact-btn:hover {
+    background-color: #BD9B78;
+    border: transparent;
+    transition: .5s;
+}
 
 
 /* Small CSS */

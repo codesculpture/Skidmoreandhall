@@ -23,7 +23,7 @@ export default function Home() {
             <div class="underline"></div>
             <div class="subtitle">Dynamic Representation<br/>by Caring Counsel</div>
             <div>
-              <button class="contact-btn">Contact Us</button>
+              <a href="$1"><div class="contact-btn">Contact Us</div></a>
             </div>
           </div>
         </div>

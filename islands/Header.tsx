@@ -30,11 +30,11 @@ export default function Header() {
             />
             <div class="hidden lg:flex flex-1 grow justify-center items-center mr-20">
                 <ul class="flex flex-row w-max space-x-28 text-lg">
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>Attorneys</li>
-                    <li>Articles</li>
-                    <li>Contact Us</li>
+                    <li class="nav-link">Home</li>
+                    <li class="nav-link">Services</li>
+                    <li class="nav-link">Attorneys</li>
+                    <li class="nav-link">Articles</li>
+                    <li class="nav-link">Contact Us</li>
                 </ul>
             </div>
             {/* Medium/Small Screens */}
