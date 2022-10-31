@@ -109,7 +109,7 @@
 
 .title-at {
     color: #173648;
-    font-size: 8vh;
+    font-size: 6vh;
     text-align: center;
     margin-top: 3vh;
     font-family: "PT Serif Caption";
@@ -127,10 +127,11 @@
 /* Attorney Info */
 .attorneyinfo {
     height: 50vh;
-    width: 100%;
+    width: 90%;
     text-align: center;
     justify-content: center;
     justify-items: center;
+    margin: auto;
 }
 
 .attorneysnip {
@@ -161,7 +162,7 @@
 .title-at-sm {
     color: #173648;
     width: 100vw;
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
     margin-top: 3vh;
     font-family: "PT Serif Caption";
@@ -188,4 +189,60 @@
 
 .attorneyname-sm {
     font-size: 1.5vh;
+}
+
+.whychoose {
+    height: 60vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.whychoose-img {
+    height: 80%;
+    width: auto;
+}
+
+.whychoose-bio {
+    height: 70%;
+    width: 40%;
+}
+
+.whychoose-title {
+    color: #BD9B78;
+    font-size: 3vh;
+    font-weight: bolder;
+}
+
+.whychoose-text {
+    margin-top: 3vh;
+    font-family: "Playfair Display";
+}
+
+/* about us LG */
+.aboutUs {
+    height: 60vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.aboutUs-img {
+    height: 80%;
+    width: auto;
+}
+
+.aboutUs-bio {
+    height: 70%;
+    width: 40%;
+}
+
+.aboutUs-title {
+    color: #BD9B78;
+    font-size: 3vh;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.aboutUs-text {
+    margin-top: 3vh;
+    font-family: "Playfair Display";
 }
