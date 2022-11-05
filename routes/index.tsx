@@ -1,5 +1,6 @@
 import { asset, Head } from "$fresh/runtime.ts";
-import  Header  from "../islands/Header.tsx"
+import  Header  from "../islands/Header.tsx";
+import Footer from "../islands/Footer.tsx";
 
 export default function Home() {
   return (
@@ -157,6 +158,9 @@ export default function Home() {
           <img src={asset("/images/Medina/Office.jpg")} class="aboutus-img-sm"></img>
         </div>
       </div>
+
+      {/* Footer Section */}
+      <Footer/>
       </>
   );
 }

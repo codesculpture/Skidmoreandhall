@@ -26,6 +26,8 @@
 
 .banner {
     display: grid;
+    width: 100%;
+    margin: 0;
 }
 
 .banner-img, .banner-text {
@@ -110,7 +112,7 @@
 /* Attorneys Section */
 .attorneys {
     height: 80vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .title-at {
@@ -199,7 +201,7 @@
 
 .whychoose {
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 
@@ -227,7 +229,7 @@
 /* about us LG */
 .aboutUs {
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 
