@@ -1,0 +1,51 @@
+.contact-us-page {
+    height: 90vh;
+    width: 100%;
+}
+
+.contact-us-page-banner {
+    height: 40vh;
+    width: 100%;
+    background-color: #173648;
+}
+
+.contact-us-page-title {
+    color: white;
+    font-size: 8vh;
+    font-weight: bold;
+    font-family: "PT Serif Caption";
+}
+
+.contact-us-page-message {
+    width: 80%;
+    color: white;
+    margin-top: 2vh;
+    font-family: "PT Serif Caption";
+}
+
+.give-us-call {
+    color: #BD9B78;
+}
+
+.map-google {
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.contact-address-title {
+    color: #173648;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.reach-us-title {
+    color: #173648;
+    font-size: 6vh;
+    font-weight: bold;
+    font-family: "PT Serif Caption";
+}
+
+.info-text-contact {
+    color: #173648;
+    font-family: "PT Serif Caption";
+}

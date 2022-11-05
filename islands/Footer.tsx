@@ -1,5 +1,4 @@
 import { useState } from "preact/hooks";
-import { Button } from "../components/Button.tsx";
 import { tw } from "twind";
 import { asset } from '$fresh/runtime.ts';
 import { render } from "https://esm.sh/v96/preact@10.11.0/src/index.d.ts";
@@ -47,7 +46,7 @@ export default function Footer() {
                                         <path d="M9 10L15 15.25L9 20.5" stroke="#BD9B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
-                                <div class="link-to-quick">Contact Us</div>
+                                <div class="link-to-quick"><a href="/contact">Contact Us</a></div>
                             </div>
                         </div>
                         <div class="quick-links-links-2">

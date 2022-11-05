@@ -1,8 +1,5 @@
 import { useState } from "preact/hooks";
-import { Button } from "../components/Button.tsx";
-import { tw } from "twind";
 import { asset } from '$fresh/runtime.ts';
-import { render } from "https://esm.sh/v96/preact@10.11.0/src/index.d.ts";
 
 
 export default function Header() {
@@ -12,6 +9,7 @@ export default function Header() {
     <>
         <head>
         <link rel="stylesheet" href={asset("/header.css")} />
+        <link rel="icon" href={asset("/blackSHLogo.svg")} />
         </head>
         <div class="sub-header flex grow">
             <div class="hidden lg:flex flex-1 grow w-full justify-center items-center">
@@ -34,7 +32,7 @@ export default function Header() {
                     <li class="nav-link">Services</li>
                     <li class="nav-link">Attorneys</li>
                     <li class="nav-link">Articles</li>
-                    <li class="nav-link">Contact Us</li>
+                    <li class="nav-link"><a href="/contact">Contact Us</a></li>
                 </ul>
             </div>
             {/* Medium/Small Screens */}
@@ -59,7 +57,7 @@ export default function Header() {
             <a href="#" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Services</a>
             <a href="#" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Attorneys</a>
             <a href="#" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Articles</a>
-            <a href="#" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Contact Us</a>
+            <a href="/contact" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Contact Us</a>
         </div>
     </>
   );
