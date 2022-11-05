@@ -36,6 +36,10 @@
     color: white;
 }
 
+.link-to-quick {
+    cursor: pointer;
+}
+
 .chev-lsit-item {
     display: flex;
     align-items: center;

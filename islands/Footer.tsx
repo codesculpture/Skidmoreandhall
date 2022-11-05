@@ -31,7 +31,7 @@ export default function Footer() {
                                         <path d="M9 10L15 15.25L9 20.5" stroke="#BD9B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
-                                <div>Home</div>
+                                <div class="link-to-quick"><a href="/">Home</a></div>
                             </div>
                             <div class="flex flex1 quick-link-item">
                                 <div>
@@ -39,7 +39,7 @@ export default function Footer() {
                                         <path d="M9 10L15 15.25L9 20.5" stroke="#BD9B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
-                                <div>Attorneys</div>
+                                <div class="link-to-quick">Attorneys</div>
                             </div>
                             <div class="flex flex1 quick-link-item">
                                 <div>
@@ -47,7 +47,7 @@ export default function Footer() {
                                         <path d="M9 10L15 15.25L9 20.5" stroke="#BD9B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
-                                <div>Contact Us</div>
+                                <div class="link-to-quick">Contact Us</div>
                             </div>
                         </div>
                         <div class="quick-links-links-2">
@@ -57,7 +57,7 @@ export default function Footer() {
                                         <path d="M9 10L15 15.25L9 20.5" stroke="#BD9B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
-                                <div>Services</div>
+                                <div class="link-to-quick">Services</div>
                             </div>
                             <div class="flex flex1 quick-link-item">
                                 <div>
@@ -65,7 +65,7 @@ export default function Footer() {
                                         <path d="M9 10L15 15.25L9 20.5" stroke="#BD9B78" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
-                                <div>Articles</div>
+                                <div class="link-to-quick">Articles</div>
                             </div>
                         </div>
                     </div>
