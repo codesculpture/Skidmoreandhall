@@ -15,7 +15,7 @@ export default function Contact() {
                 <title>Skidmore and Hall</title>
                 <link rel="icon" href="/blackSHLogo.svg"/></Head>
             <Header/>
-            <div class="contact-us-page">
+            <div class="hidden lg:grid contact-us-page">
                 <div class="hidden lg:grid grid-cols-2 contact-us-page-banner">
                     <div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.4114692916164!2d-81.86602538439568!3d41.147372018802294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830c8024935e87f%3A0x9ded31cda1d8e599!2s748%20N%20Court%20St%2C%20Medina%2C%20OH%2044256!5e0!3m2!1sen!2sus!4v1667675034184!5m2!1sen!2sus" 
@@ -52,6 +52,44 @@ export default function Contact() {
                                 Hours: 9:00 a.m. to 5:00 p.m.
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Contact us Page Mobile */}
+            <div class="lg:hidden contact-us-page-mobile">
+                <div class="contact-us-page-info-mobile-1">
+                    <div class="contact-us-page-nav-title">Contact Us!</div>
+                    <div class="contacxt-us-page-summary">Give us a call: If you are facing any type of legal matter, whether defending or bringing a 
+                        lawsuit, starting a corporation or setting up your estate plan, please give us a call. An experienced attorney can help guide you through 
+                        the legal process and any legal questions you are facing.
+                    </div>
+                </div>
+                <div class="contact-us-page-contact-info-mobile">
+                    <div>
+                        <div class="contact-us-page-mobile-reach-us">
+                            <div class="reach-us-mobile-reach-title">Reach Us</div>
+                            <div>Phone: (330) 725-5936 </div>
+                            <div>Fax: Fax: (330) 725-3145</div>
+                            <div>Email: help@skidmoreandhall.com </div>
+                            <div>Hours: 9:00 a.m. to 5:00 p.m.</div>
+                        </div>
+                        <div class="contact-us-page-mobile-contact-us">
+                            <div class="reach-us-mobile-title">Address</div>
+                            <div>Skidmore and Hall<br/>
+                                748 North Court Street, <br/>
+                                Medina, Ohio 44256 </div>
+                        </div>
+                        <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.4114692916164!2d-81.86602538439568!3d41.147372018802294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830c8024935e87f%3A0x9ded31cda1d8e599!2s748%20N%20Court%20St%2C%20Medina%2C%20OH%2044256!5e0!3m2!1sen!2sus!4v1667675034184!5m2!1sen!2sus" 
+                            width="300" 
+                            height="400" 
+                            style="border:0;" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="map-google-mobile"
+                        ></iframe>
+                    </div>
                     </div>
                 </div>
             </div>

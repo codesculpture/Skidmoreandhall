@@ -49,3 +49,55 @@
     color: #173648;
     font-family: "PT Serif Caption";
 }
+
+/* mobile version */
+.contact-us-page-mobile {
+    height: 150vh;
+    width: 100%;
+}
+
+.contact-us-page-info-mobile-1 {
+    background-color: #173648;
+    height: 40vh;
+}
+
+.contact-us-page-nav-title {
+    padding-top: 3vh;
+    color: #BD9B78;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.contacxt-us-page-summary {
+    color: white;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 4vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.reach-us-mobile-title {
+    color: #173648;
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.reach-us-mobile-reach-title {
+    color: #173648;
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.contact-us-page-contact-info-mobile {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.map-google-mobile {
+    margin-top: 10vh;
+}
