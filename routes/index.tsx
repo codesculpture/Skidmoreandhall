@@ -24,7 +24,7 @@ export default function Home() {
             <div class="underline"></div>
             <div class="subtitle">Dynamic Representation<br/>by Caring Counsel</div>
             <div>
-              <a href="$1"><div class="contact-btn">Contact Us</div></a>
+              <a href="/contact"><div class="contact-btn">Contact Us</div></a>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Home() {
             <div class="underline-sm"></div>
             <div class="subtitle-sm">Dynamic Representation<br/>by Caring Counsel</div>
             <div>
-              <button class="contact-btn-sm">Contact Us</button>
+              <button class="contact-btn-sm"><a href="/contact">Contact Us</a></button>
             </div>
           </div>
         </div>
