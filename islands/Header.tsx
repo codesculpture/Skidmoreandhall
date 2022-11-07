@@ -21,11 +21,11 @@ export default function Header() {
         </div>
         <div class="header flex grow border border-opacity-50 border-gray-400">
         {/* Large Screens */}
-            <img
+            <a href="/"><img
                 src="/blackSHLogo.svg"
                 class="hidden lg:flex w-32 h-32 ml-10"
                 alt="Skidmore and Hall Logo"
-            />
+            /></a>
             <div class="hidden lg:flex flex-1 grow justify-center items-center mr-20">
                 <ul class="flex flex-row w-max space-x-28 text-lg">
                     <li class="nav-link"><a href="/">Home</a></li>
@@ -37,11 +37,11 @@ export default function Header() {
             </div>
             {/* Medium/Small Screens */}
             <div class="lg:hidden w-full h-1/10 grid grid-cols-2 text-gray-400">
-                <img
+                <a href="/"><img
                     src="/blackSHLogo.svg"
                     class="lg:hidden flex w-16 h-16 ml-10 place-self-start"
                     alt="Skidmore and Hall Logo"
-                />
+                /></a>
                 <div class="mobile-menu-button lg:hidden flex items-center place-self-end pb-5 pr-4">
                     <button onClick={() => setShowMenu(!showMenu)}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
