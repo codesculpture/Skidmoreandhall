@@ -30,8 +30,23 @@ export default function Home() {
         </div>
       </div>
 
+      {/* banner MD */}
+      <div class="hidden md:flex lg:hidden md-homepage">
+        <div class="banner-md">
+          <img src="books.jpg" class="banner-img-md"></img>
+          <div class="banner-text-md">
+            <div class="title-md mt-3">Skidmore & Hall Co. , LPA</div>
+            <div class="underline-md"></div>
+            <div class="subtitle-md mt-6">Dynamic Representation<br/>by Caring Counsel</div>
+            <div>
+              <a href="/contact"><div class="contact-btn-md">Contact Us</div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* banner SM */}
-      <div class="lg:hidden">
+      <div class="md:hidden">
         <div class="banner-sm">
         <img src="books.jpg" class="banner-img-sm"></img>
         <div class="banner-text-sm">
@@ -71,8 +86,35 @@ export default function Home() {
         </div>
       </div>
 
-      {/*Attorneys LG */}
-      <div class="lg:hidden flex">
+      {/* Attorneys MD */}
+      <div class="hidden md:flex lg:hidden">
+        <div class="attorneys-md">
+          <div class="title-at-md">Our Attorneys</div>
+
+          <div class="flex flex-cols-4 attorneyinfo-md m-6 pl-3">
+            <div class="flex flex-col pr-3 attorneysnip">
+              <img src={asset("images/attorneys/Lee-Skidmore.jpg")} class="attorneyimg-md"></img>
+              <div class="attorneyname-md">Lee Skidmore</div>
+            </div>
+            <div class="flex flex-col pr-3 attorneysnip">
+              <img src={asset("images/attorneys/Rob-Skidmore.jpg")} class="attorneyimg-md"></img>
+              <div class="attorneyname-md">Rob Skidmore</div>
+            </div>
+            <div class="flex flex-col pr-3 attorneysnip">
+              <img src={asset("images/attorneys/Claudia-Skidmore.jpg")} class="attorneyimg-md"></img>
+              <div class="attorneyname-md">Claudia Skidmore</div>
+            </div>
+            <div class="flex flex-col pr-3 attorneysnip">
+              <img src={asset("images/attorneys/Nicole-Sergov.jpg")} class="attorneyimg-md"></img>
+              <div class="attorneyname-md">Nicole Sergov</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      {/*Attorneys SM */}
+      <div class="md:hidden flex">
         <div class="attorneys-sm">
           <div class="title-at-sm">Our Attorneys</div>
           <div class="underline-at-sm"></div>
@@ -117,8 +159,25 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Why choose section LG */}
-      <div class="lg:hidden whychoose-sm">
+      {/* Why choose section md */}
+      <div class="hidden md:flex lg:hidden whychoose-md">
+        <div class="whychoose-bio-md">
+          <div class="whychoose-title-md">WHY CHOOSE SKIDMORE & HALL CO., LPA</div>
+          <div class="whychoose-text-md">
+            The experienced attorneys at Skidmore & Hall Co. LPA are committed to protecting client’s interests and giving them the best representation possible. 
+            We believe every client’s situation is unique and we will strive to represent each client according to their personal situation. We will take the time to 
+            listen and understand the client’s concerns and we will use our expertise to customize a solution for each individual client. Our goal is to help our clients 
+            throughout all their legal needs. We endeavor to build a relationship with our clients where they will continue to use our services whenever they need legal 
+            assistance. Our firm is committed to delivering highly skilled, effective, and innovative legal representation to our clients in a timely manner and at a 
+            reasonable cost. 
+          </div>
+          <img src={asset("images/Medina/Courthouse.jpg")} class="whychoose-img-md"></img>
+
+        </div>
+      </div>
+
+      {/* Why choose section SM */}
+      <div class="md:hidden whychoose-sm">
         <div class="whychoose-bio-sm">
           <div class="whychoose-title-sm">WHY CHOOSE SKIDMORE & HALL CO., LPA</div>
           <div class="whychoose-text-sm">
@@ -146,8 +205,21 @@ export default function Home() {
         <img src={asset("/images/Medina/Office.jpg")} class="aboutUs-img"></img>
       </div>
 
-      {/* About Us */}
-      <div class="lg:hidden aboutus-sm">
+      {/* About Us MD */}
+      <div class="hidden md:flex lg:hidden aboutus-md">
+        <div class="aboutus-md-bio">
+          <div class="aboutus-md-title">ABOUT US</div>
+          <div class="aboutus-text-md">
+            The law firm of Skidmore & Hall Co. LPA has been serving clients in the Northeast Ohio area since 1965. Skidmore & Hall Co., LPA was formed by L. 
+            Thomas Skidmore and Ronald H. Hall.  Since the firm’s foundation, our attorneys continue to commit themselves to serving the community and have built 
+            their practice on providing valuable individualized legal services to their clients.
+          </div>
+          <img src={asset("/images/Medina/Office.jpg")} class="aboutus-img-md"></img>
+        </div>
+      </div>
+
+      {/* About Us SM*/}
+      <div class="md:hidden aboutus-sm">
         <div class="aboutus-bio-sm">
           <div class="aboutus-title-sm">ABOUT US</div>
           <div class="aboutus-text-sm">

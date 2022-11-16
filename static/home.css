@@ -310,3 +310,125 @@
 .aboutus-img-sm {
     margin-top: 2vh;
 }
+
+.md-homepage {
+    height: 50vh;
+    width: 100%;
+}
+
+.banner-md {
+    display: grid;
+    width: 100%;
+    margin: 0;
+}
+
+
+.banner-img-md, .banner-text-md {
+    grid-area: 1 / 1;
+}
+
+.banner-text-md {
+    color: white;
+    text-align: center;
+}
+
+.title-md {
+    font-size: 5vh;
+    font-family: "PT Serif Caption";
+}
+
+.underline-md {
+    background-color: white;
+    text-align: center;
+    height: .5vh;
+    width: 40vw;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.subtitle-md {
+    font-size: 4vh;
+    color: #BD9B78;
+}
+
+.contact-btn-md {
+    height: 5vh;
+    width: 12vw;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+/* Attorneys md */
+.attorneys-md {
+    height: 55vh;
+    width: 100%;
+}
+
+.title-at-md {
+    color: #173648;
+    text-align: center;
+    font-size: 7vh;
+}
+
+.attorneyimg-md {
+    height: 80%;
+    width: auto;
+}
+
+/* why choose md */
+.whychoose-md {
+    height: 90vh;
+}
+
+.whychoose-title-md {
+    color: #BD9B78;
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.whychoose-text-md {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.whychoose-img-md {
+    height: 50%;
+    width: auto;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+/* about us md */
+.aboutus-md {
+    height: 90vh;
+    width: auto;
+}
+
+.aboutus-md-title {
+    color: #BD9B78;
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.aboutus-text-md {
+    width: 80%;
+    margin: auto;
+}
+
+.aboutus-img-md {
+    height: 50%;
+    width: auto;
+    margin: auto;
+    margin-top: 3vh;
+}
