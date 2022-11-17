@@ -1,0 +1,93 @@
+.footer {
+    height: 30vh;
+    width: 100%;
+    background-color: #173648;
+}
+
+.logo-section {
+    justify-content: left;
+    align-items: center;
+    height: 30vh;
+}
+/* quick links */
+.quick-links {
+    height: 30vh;
+    align-items: center;
+    width: 70%;
+}
+
+.quick-links-links {
+    width: 100%;
+}
+
+.quick-links-section {
+    width: 80%;
+    color: white;
+}
+
+.quick-links-title {
+    color: #BD9B78;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.list-items {
+    color: white;
+}
+
+.link-to-quick {
+    cursor: pointer;
+}
+
+.chev-lsit-item {
+    display: flex;
+    align-items: center;
+}
+
+.chevron {
+    padding-bottom: 5px;
+}
+
+
+/* contact us */
+.contact-us {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-title {
+    color: #BD9B78;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.contact-us-section {
+    justify-content: left;
+    align-items: center;
+}
+
+/* Mobile css */
+.footer-mobile {
+    height: 20vh;
+    width: 100%;
+    background-color: #173648;
+}
+
+.contact-us-mobile {
+    margin-left: 10vw;
+    padding-top: 2vh;
+}
+
+.contact-us-title-mobile {
+    color: #BD9B78;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.list-items-mobile {
+    font-size: 1.5vh;
+    color: white;
+}
