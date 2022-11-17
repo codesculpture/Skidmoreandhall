@@ -1,20 +1,16 @@
-import { useState } from "preact/hooks";
-import { tw } from "twind";
-import { asset } from '$fresh/runtime.ts';
-import { render } from "https://esm.sh/v96/preact@10.11.0/src/index.d.ts";
-
+import { asset, Head } from '$fresh/runtime.ts';
 
 export default function Footer() { 
     return (
         <>
-            <head>
-            <link rel="stylesheet" href={asset("/css/footer.css")} />     
-            </head>
+            <Head>
+                <link rel="stylesheet" href={asset("/footer.css")} />     
+            </Head>
             {/* Large Footer */}
             <div class="hidden lg:grid grid-cols-3 content-start footer">
                 <div class="flex logo-section">
                     <img
-                        src="images/TanSHLogo.svg"
+                        src="/TanSHLogo.svg"
                         class="hidden lg:flex w-40 h-40 ml-10"
                         alt="Skidmore and Hall Logo Tan"
                     />
@@ -85,7 +81,7 @@ export default function Footer() {
             <div class="lg:hidden flex flex1 footer-mobile">
                 <div class="mobile-logo">
                     <img
-                        src="images/TanSHLogo.svg"
+                        src="/TanSHLogo.svg"
                         class="flex w-40 h-40 ml-5"
                         alt="Skidmore and Hall Logo Tan"
                     />
