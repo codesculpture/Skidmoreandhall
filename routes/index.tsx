@@ -68,19 +68,23 @@ export default function Home() {
           <div class="flex flex-cols-4 attorneyinfo">
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Lee-Skidmore.jpg")} class="attorneyimg"></img>
-              <div class="attorneyname">Lee Skidmore</div>
+              <div class="attorneyname">Lee T. Skidmore Esq.</div>
+              <div class="partner">Partner</div>
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Rob-Skidmore.jpg")} class="attorneyimg"></img>
-              <div class="attorneyname">Rob Skidmore</div>
+              <div class="attorneyname">Rob C. Skidmore Esq.</div>
+              <div class="partner">Partner</div>
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Claudia-Skidmore.jpg")} class="attorneyimg"></img>
-              <div class="attorneyname">Claudia Skidmore</div>
+              <div class="attorneyname">Claudia M. Skidmore Esq.</div>
+              <div class="partner">Associate</div>
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Nicole-Sergov.jpg")} class="attorneyimg"></img>
-              <div class="attorneyname">Nicole Sergov</div>
+              <div class="attorneyname">Nicole L. Sergov Esq.</div>
+              <div class="partner">Associate</div>
             </div>
           </div>
         </div>
@@ -94,19 +98,23 @@ export default function Home() {
           <div class="flex flex-cols-4 attorneyinfo-md m-6 pl-3">
             <div class="flex flex-col pr-3 attorneysnip">
               <img src={asset("images/attorneys/Lee-Skidmore.jpg")} class="attorneyimg-md"></img>
-              <div class="attorneyname-md">Lee Skidmore</div>
+              <div class="attorneyname-md">Lee T. Skidmore Esq.</div>
+              <div class="partner">Partner</div>
             </div>
             <div class="flex flex-col pr-3 attorneysnip">
               <img src={asset("images/attorneys/Rob-Skidmore.jpg")} class="attorneyimg-md"></img>
-              <div class="attorneyname-md">Rob Skidmore</div>
+              <div class="attorneyname-md">Rob C. Skidmore Esq.</div>
+              <div class="partner">Partner</div>
             </div>
             <div class="flex flex-col pr-3 attorneysnip">
               <img src={asset("images/attorneys/Claudia-Skidmore.jpg")} class="attorneyimg-md"></img>
-              <div class="attorneyname-md">Claudia Skidmore</div>
+              <div class="attorneyname-md">Claudia M. Skidmore Esq.</div>
+              <div class="partner">Associate</div>
             </div>
             <div class="flex flex-col pr-3 attorneysnip">
               <img src={asset("images/attorneys/Nicole-Sergov.jpg")} class="attorneyimg-md"></img>
-              <div class="attorneyname-md">Nicole Sergov</div>
+              <div class="attorneyname-md">Nicole L. Sergov Esq.</div>
+              <div class="partner">Associate</div>
             </div>
           </div>
           
@@ -122,22 +130,26 @@ export default function Home() {
           <div class="flex flex-cols-2 space-x-9 attorneybio-sm">
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Lee-Skidmore.jpg")}></img>
-              <div class="attorneyname-sm">Lee Skidmore</div>
+              <div class="attorneyname-sm">Lee T. Skidmore Esq.</div>
+              <div class="partner">Partner</div>
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Rob-Skidmore.jpg")}></img>
-              <div class="attorneyname-sm">Rob Skidmore</div>
+              <div class="attorneyname-sm">Rob C. Skidmore Esq.</div>
+              <div class="partner">Partner</div>
             </div>
           </div>
 
           <div class="flex flex-cols-2 space-x-9 attorneybio-sm">
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Claudia-Skidmore.jpg")}></img>
-              <div class="attorneyname-sm">Claudia Skidmore</div>
+              <div class="attorneyname-sm">Claudia M. Skidmore Esq.</div>
+              <div class="partner">Associate</div>
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Nicole-Sergov.jpg")}></img>
-              <div class="attorneyname-sm">Nicole Sergov</div>
+              <div class="attorneyname-sm">Nicole L. Sergov Esq.</div>
+              <div class="partner">Associate</div>
             </div>
           </div>       
          </div>
