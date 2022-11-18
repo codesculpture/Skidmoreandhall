@@ -73,7 +73,7 @@ export default function Home() {
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Rob-Skidmore.jpg")} class="attorneyimg"></img>
-              <div class="attorneyname">Rob C. Skidmore Esq.</div>
+              <div class="attorneyname">Robert C. Skidmore Esq.</div>
               <div class="partner">Partner</div>
             </div>
             <div class="flex flex-col attorneysnip">
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
             <div class="flex flex-col pr-3 attorneysnip">
               <img src={asset("images/attorneys/Rob-Skidmore.jpg")} class="attorneyimg-md"></img>
-              <div class="attorneyname-md">Rob C. Skidmore Esq.</div>
+              <div class="attorneyname-md">Robert C. Skidmore Esq.</div>
               <div class="partner">Partner</div>
             </div>
             <div class="flex flex-col pr-3 attorneysnip">
@@ -135,7 +135,7 @@ export default function Home() {
             </div>
             <div class="flex flex-col attorneysnip">
               <img src={asset("images/attorneys/Rob-Skidmore.jpg")}></img>
-              <div class="attorneyname-sm">Rob C. Skidmore Esq.</div>
+              <div class="attorneyname-sm">Robert C. Skidmore Esq.</div>
               <div class="partner">Partner</div>
             </div>
           </div>
