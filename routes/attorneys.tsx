@@ -107,7 +107,7 @@ export default function Attorneys() {
                     <div class="attorneyname-sm">Nicole L. Sergov</div>
                     <div class="partner">Associate</div>
                     </div>
-                </div>       
+                </div>
                 </div>
             </div>
         </div>

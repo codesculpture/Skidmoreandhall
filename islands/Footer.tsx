@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <Head>
-                <link rel="stylesheet" href={asset("/footer.css")} />     
+		    <link rel="stylesheet" href={asset("/css/footer.css")} />    
             </Head>
             {/* Large Footer */}
             <div class="hidden lg:grid grid-cols-3 content-start footer">
