@@ -30,7 +30,7 @@ export default function Header() {
                 <ul class="flex flex-row w-max space-x-28 text-lg">
                     <li class="nav-link"><a href="/">Home</a></li>
                     <li class="nav-link">Services</li>
-                    <li class="nav-link">Attorneys</li>
+                    <li class="nav-link"><a href="/attorneys">Attorneys</a></li>
                     <li class="nav-link">Articles</li>
                     <li class="nav-link"><a href="/contact">Contact Us</a></li>
                 </ul>
@@ -55,7 +55,7 @@ export default function Header() {
         <div className={showMenu === true ? 'mobile-menu grow w-full h-screen space-y-10 flex-1 flex-cols-1 flex-row-5 items-center justify-center hidden' : 'mobile-menu grow w-full h-screen space-y-10 flex-1 flex-cols-1 flex-row-5 items-center justify-center'}>
             <a href="/" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white mt-3">Home</a>
             <a href="#" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Services</a>
-            <a href="#" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Attorneys</a>
+            <a href="/attorneys" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Attorneys</a>
             <a href="#" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Articles</a>
             <a href="/contact" class="menu-item block flex grow w-full py-2 px-4 text-4 hover:text-gray-400 text-center justify-self-center hover:bg-blue-900 hover:text-white">Contact Us</a>
         </div>

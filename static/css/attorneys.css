@@ -1,0 +1,124 @@
+.attorneys-page {
+    width: 100vw;
+    height: 80vh;
+}
+
+/* Attorneys Section */
+.attorneys {
+    height: 80vh;
+    width: 100%;
+}
+
+.title-at {
+    color: #173648;
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 3vh;
+    font-family: "PT Serif Caption";
+}
+
+.underline-at {
+    height: 1vh;
+    width: 20vw;
+    background-color: #173648;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+}
+
+/* Attorney Info */
+.attorneyinfo {
+    height: 50vh;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.attorneysnip {
+    height: 100%;
+    width: 20vw;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin-top: 3vh;
+}
+
+.attorneyimg {
+    height: auto;
+    max-height: 40vh;
+    max-width: 100%;
+    background-color: blue;
+    margin: auto;
+}
+
+.attorneyname {
+
+}
+
+/* Attorney Info sm */
+.title-at-sm {
+    color: #173648;
+    width: 100vw;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 3vh;
+    font-family: "PT Serif Caption";
+}
+
+.underline-at-sm {
+    height: .5vh;
+    width: 20vw;
+    background-color: #173648;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.attorneybio-sm {
+    height: 30vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.attorneysnip {
+    width: 30vw;
+}
+
+.attorneyname-sm {
+    font-size: 1.5vh;
+}
+
+.attorneys-md {
+    height: 100%;
+    width: 100%;
+}
+
+.attorneybio-md {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.attorney-img-md {
+    height: 25vh;
+    width: auto;
+    margin: auto;
+}
+
+.title-at-md {
+    font-size: 7vh;
+    font-family: "PT Serif Caption";
+    text-align: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.partner {
+    color: gray;
+}

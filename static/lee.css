@@ -1,0 +1,23 @@
+.lee-section {
+    height: 80vh;
+    width: 100%;
+}
+ .lee-bio-background {
+    height: 30vh;
+    width: 100%;
+    background-color: #173648;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+ }
+
+ .lee-img-container {
+    position: absolute;
+    height: auto;
+    width: 15vw;
+}
+
+ .lee-img {
+    height: 20vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+ }
